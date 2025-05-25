@@ -1,4 +1,10 @@
-name: Log ISS Location Data Daily
+name: Run on Push
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   test:
     steps:
