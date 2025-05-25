@@ -7,6 +7,7 @@ on:
 
 jobs:
   test:
+    runs-on: ubuntu-latest
     steps:
       - name: 23f2004422@ds.study.iitm.ac.in
         run: echo "Hello, world!"
