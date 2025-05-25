@@ -1,3 +1,4 @@
+name: Log ISS Location Data Daily
 jobs:
   test:
     steps:
